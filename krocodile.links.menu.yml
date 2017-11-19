@@ -1,0 +1,6 @@
+krocodile.overview:
+  title: 'Krocodile'
+  route_name: krocodile.overview
+  description: 'Manage installed KPI plugins'
+  parent: system.admin
+  weight: -99

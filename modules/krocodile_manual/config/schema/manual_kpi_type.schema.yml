@@ -1,0 +1,12 @@
+krocodile_manual.manual_kpi_type.*:
+  type: config_entity
+  label: 'Manual kpi type config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string

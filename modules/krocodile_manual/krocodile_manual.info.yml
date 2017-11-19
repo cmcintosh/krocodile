@@ -1,0 +1,7 @@
+name: Krocodile Manual KPI
+type: module
+description: Manual KPI handling for manual data entry.
+core: 8.x
+package: Krocodile
+dependencies:
+  - krocodile

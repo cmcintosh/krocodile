@@ -1,0 +1,14 @@
+{
+  "name": "drupal/krocodile_manual",
+  "type": "drupal-module",
+  "description": "Manual KPI handling for manual data entry.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/krocodile_manual",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/krocodile_manual",
+    "source": "http://cgit.drupalcode.org/krocodile_manual"
+  },
+  "require": { }
+}

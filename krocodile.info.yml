@@ -1,0 +1,5 @@
+name: Krocodile KPI
+type: module
+description: Krocodile KPI allows for tracking and reporting of team kpi in an automated fashion.
+core: 8.x
+package: Krocodile

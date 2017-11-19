@@ -1,0 +1,8 @@
+# For testing
+krocodile_jira.testing:
+  path: '/admin/krocodile/jira'
+  defaults:
+    _controller: '\Drupal\krocodile_jira\Controller\Jira::testing'
+    _title: 'Krocodile Testing'
+  requirements:
+    _permission: 'administer krocodile'

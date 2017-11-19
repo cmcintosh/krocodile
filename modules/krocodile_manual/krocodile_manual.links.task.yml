@@ -1,0 +1,22 @@
+# Manual kpi routing definition
+
+entity.manual_kpi.canonical:
+  route_name: entity.manual_kpi.canonical
+  base_route: entity.manual_kpi.canonical
+  title: 'View'
+
+entity.manual_kpi.edit_form:
+  route_name: entity.manual_kpi.edit_form
+  base_route: entity.manual_kpi.canonical
+  title: 'Edit'
+
+entity.manual_kpi.delete_form:
+  route_name:  entity.manual_kpi.delete_form
+  base_route:  entity.manual_kpi.canonical
+  title: Delete
+  weight: 10
+
+entity.manual_kpi.collection:
+  route_name:  entity.manual_kpi.collection
+  base_route:  krocodile.overview
+  title: Manual KPI

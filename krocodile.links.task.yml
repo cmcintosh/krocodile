@@ -1,0 +1,4 @@
+krocodile.user_report:
+  route_name: krocodile.user_report
+  base_route: entity.user.canonical
+  title: 'KPI Report'

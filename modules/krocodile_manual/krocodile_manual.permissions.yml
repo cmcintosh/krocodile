@@ -1,0 +1,22 @@
+add manual kpi entities:
+  title: 'Create new Manual kpi entities'
+
+administer manual kpi entities:
+  title: 'Administer Manual kpi entities'
+  description: 'Allow to access the administration form to configure Manual kpi entities.'
+  restrict access: true
+
+delete manual kpi entities:
+  title: 'Delete Manual kpi entities'
+
+edit manual kpi entities:
+  title: 'Edit Manual kpi entities'
+
+access manual kpi overview:
+  title: 'Access the Manual kpi overview page'
+
+view published manual kpi entities:
+  title: 'View published Manual kpi entities'
+
+view unpublished manual kpi entities:
+  title: 'View unpublished Manual kpi entities'

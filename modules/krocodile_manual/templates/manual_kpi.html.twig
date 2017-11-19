@@ -1,0 +1,22 @@
+{#
+/**
+ * @file manual_kpi.html.twig
+ * Default theme implementation to present Manual kpi data.
+ *
+ * This template is used when viewing Manual kpi pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_manual_kpi()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('manual_kpi') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

@@ -1,0 +1,11 @@
+entity.manual_kpi.add_form:
+  route_name: entity.manual_kpi.add_page
+  title: 'Add Manual kpi'
+  appears_on:
+    - entity.manual_kpi.collection
+entity.manual_kpi_type.add_form:
+  route_name: entity.manual_kpi_type.add_form
+  title: 'Add Manual kpi type'
+  appears_on:
+    - entity.manual_kpi_type.collection
+

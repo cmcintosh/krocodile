@@ -22,3 +22,14 @@ Krocodile does not do anything on its own other than allowing you to define arbi
 
  * To submit bug reports and feature suggestions, or to track changes:
    https://github.com/cmcintosh/krocodile/issues
+
+INSTALLATION
+------------
+* Install as you would normally install a contributed Drupal module. Visit:
+  https://drupal.org/documentation/install/modules-themes/modules-8
+  for further information.
+
+CONFIGURATION
+-------------
+
+Coming Soon.

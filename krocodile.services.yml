@@ -1,0 +1,6 @@
+services:
+  plugin.manager.kpi:
+    class: Drupal\krocodile\KpiPluginManager
+    parent: default_plugin_manager
+  plugin.manager.kpi_report:
+    class: Drupal\krocodile\KpiReportPluginManager

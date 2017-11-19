@@ -1,0 +1,26 @@
+# Overview page that lists all plugins.
+krocodile.overview:
+  path: '/admin/krocodile'
+  defaults:
+    _controller: '\Drupal\krocodile\Controller\KPIController::overview'
+    _title: 'Krocodile KPI'
+  requirements:
+    _permission: 'administer krocodile'
+
+# Leaderboard
+krocodile.leaderboard:
+  path: '/admin/krocodile/{plugin_id}/{type}'
+  defaults:
+    _controller: '\Drupal\krocodile\Controller\KPIController::leaderboard'
+    _title: 'Krocodile Leaderboard'
+  requirements:
+    _permission: 'administer krocodile'
+
+# User KPI report page.
+krocodile.user_report:
+  path: '/user/{user}/kpi'
+  defaults:
+    _controller: '\Drupal\krocodile\Controller\KPIController::user'
+  requirements:
+    _permission: 'access krocodile report'
+    user: \d+

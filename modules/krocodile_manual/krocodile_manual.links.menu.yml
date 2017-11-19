@@ -1,0 +1,17 @@
+
+# Manual kpi menu items definition
+entity.manual_kpi.collection:
+  title: 'Manual kpi list'
+  route_name: entity.manual_kpi.collection
+  description: 'List Manual kpi entities'
+  parent: krocodile.overview
+  weight: 100
+
+
+# Manual kpi type menu items definition
+entity.manual_kpi_type.collection:
+  title: 'Manual kpi type'
+  route_name: entity.manual_kpi_type.collection
+  description: 'List Manual kpi type (bundles)'
+  parent: entity.manual_kpi.collection
+  weight: 99
